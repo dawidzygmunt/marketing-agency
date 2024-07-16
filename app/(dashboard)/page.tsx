@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
-import mask from "@/public/mask.svg"
 import VideoPlayer from "./components/video-player"
 import Projects from "./components/projects"
+import Statistics from "./components/statistics"
+import Services from "./components/services"
+import { useEffect } from "react"
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
       </main>
       <div className="h-[100px] w-full bg-purple"></div>
       <Projects />
+      <Statistics />
+      <Services />
     </>
   )
 }

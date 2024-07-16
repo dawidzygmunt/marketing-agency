@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Inter as FontSans } from "next/font/google"
 import "../styles/globals.css"
 import Navbar from "@/components/navbar"
+import Head from "next/head"
 import { cn } from "@/lib/utils"
 import { Nunito_Sans as FontNunito } from "next/font/google"
 

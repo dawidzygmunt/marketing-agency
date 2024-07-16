@@ -5,10 +5,10 @@ import SingleProject from "./single-project"
 const Projects = () => {
   return (
     <div className="bg-white text-purpleText flex flex-col font-semibold items-center text-center px-12 text-lg">
-      <h2 className="text-purpleHeader text-6xl font-semibold m-6 mt-24">
+      <h2 className="text-black text-6xl font-semibold m-6 mt-24">
         Nasze projekty
       </h2>
-      <p className="font-bold">
+      <p className="font-bold text-smallText">
         Spójrz na niektóre z naszych ostatnich projektów w Webflow. Obsługujemy
         wszystkie branże, ponieważ naszą specjalizacją jest platforma Webflow.
       </p>

@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss"
 const { fontFamily } = require("tailwindcss/defaultTheme")
+const plugin = require("tailwindcss/plugin")
 
 const config = {
   darkMode: ["class"],
@@ -25,41 +26,40 @@ const config = {
       colors: {
         black: "#090909",
         purple: "#5e00ff",
-        purpleHeader: "#5e00ff",
-        purpleText: "#8a45ff",
+        smallText: "#363636",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
+        // primary: {
+        //   DEFAULT: "hsl(var(--primary))",
+        //   foreground: "hsl(var(--primary-foreground))",
+        // },
+        // secondary: {
+        //   DEFAULT: "hsl(var(--secondary))",
+        //   foreground: "hsl(var(--secondary-foreground))",
+        // },
+        // destructive: {
+        //   DEFAULT: "hsl(var(--destructive))",
+        //   foreground: "hsl(var(--destructive-foreground))",
+        // },
+        // muted: {
+        //   DEFAULT: "hsl(var(--muted))",
+        //   foreground: "hsl(var(--muted-foreground))",
+        // },
+        // accent: {
+        //   DEFAULT: "hsl(var(--accent))",
+        //   foreground: "hsl(var(--accent-foreground))",
+        // },
+        // popover: {
+        //   DEFAULT: "hsl(var(--popover))",
+        //   foreground: "hsl(var(--popover-foreground))",
+        // },
+        // card: {
+        //   DEFAULT: "hsl(var(--card))",
+        //   foreground: "hsl(var(--card-foreground))",
+        // },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -92,7 +92,23 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    plugin(
+      function ({ addVariant }: { addVariant: Function }) {
+        addVariant("glow", ".glow-capture .glow-overlay &")
+      },
+      {
+        theme: {
+          extend: {
+            colors: {
+              glow: "color-mix(in srgb, var(--glow-color) calc(<alpha-values> * 100%), transparent)",
+            },
+          },
+        },
+      }
+    ),
+  ],
 } satisfies Config
 
 export default config
