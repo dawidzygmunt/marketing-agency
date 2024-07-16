@@ -19,13 +19,12 @@ export default function Home() {
           Bezpłatna konsultacja
         </Button>
       </div>
-      <div>
-        <video width="640" height="480" controls preload="none" autoPlay>
-          <source src="public/Homevidy.mp4" type="video/mp4" />
-          <track src="public/Homevidy.mp4" srcLang="en" label="English" />
+      <div className="relative">
+        <video width="100%" height="100%" preload="none" autoPlay loop muted>
+          <source src="./Homevidy.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <Image src={mask} alt="mask" />
+        <Image src={mask} alt="mask" className="absolute top-0" />
       </div>
     </main>
   )
