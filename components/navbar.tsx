@@ -31,9 +31,7 @@ const Navbar: React.FC = () => {
           </ul>
 
           <div className="flex">
-            <Button className="bg-purple-600 px-9 hidden md:block">
-              Kontakt
-            </Button>
+            <Button className="bg-purple px-9 hidden md:block">Kontakt</Button>
             <Button
               className="bg-inherit hover:bg-inherit lg:hidden"
               onClick={() => setIsOpen(!isOpen)}

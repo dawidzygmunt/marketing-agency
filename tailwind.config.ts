@@ -24,6 +24,9 @@ const config = {
       },
       colors: {
         black: "#090909",
+        purple: "#5e00ff",
+        purpleHeader: "#5e00ff",
+        purpleText: "#8a45ff",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
