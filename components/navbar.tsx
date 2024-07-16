@@ -7,7 +7,7 @@ import path from "path"
 import Link from "next/link"
 
 const Navbar: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   const navLinks = [
     { title: "Home", path: "/" },
