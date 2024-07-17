@@ -52,8 +52,27 @@ const Services = () => {
         Digital. Niezależnie od tego, czy szukasz projektowania, czy tworzenia w
         Webflow, czy obu tych usług, mamy to, czego potrzebujesz.
       </p>
-      <div>
-        <SingleService />
+      <div className="flex flex-col md:flex-row gap-8 py-16">
+        <SingleService
+          src="/images/example_service.png"
+          title="Testing it up"
+          description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
+        />
+        <SingleService
+          src="/images/example_service.png"
+          title="Testing up it"
+          description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
+        />
+        <SingleService
+          src="/images/example_service.png"
+          title="Testing up it"
+          description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
+        />
+        <SingleService
+          src="/images/example_service.png"
+          title="Testing up it"
+          description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
+        />
       </div>
     </div>
   )
