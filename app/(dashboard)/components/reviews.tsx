@@ -3,6 +3,7 @@ import React from "react"
 import FiveStar from "./five-star"
 import { InfiniteMovingCards } from "@/components/ui/moving-cards"
 import Image from "next/image"
+import CalendarMeetings from "./calendar-meetings"
 
 const Reviews = () => {
   const testimonials = [
@@ -56,6 +57,15 @@ const Reviews = () => {
           speed="slow"
         />
       </div>
+
+      <div className="flex flex-col items-center py-24 text-center">
+        <h2 className="font-bold text-5xl my-5 mx-5">Darmowa konstultacja</h2>
+        <p className="font-semibold text-md mx-3 max-w-[700px]">
+          Mieliśmy wielkie szczęście, że nasi członkowie zespołu współpracowali
+          z globalnymi markami w różnych branżach.
+        </p>
+      </div>
+      <CalendarMeetings />
     </div>
   )
 }
