@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="bg-black text-white border-b border-slate-500 sticky top-0 z-50">
+      <nav className="bg-black text-white border-b border-slate-500 sticky top-0 z-50 md: px-36 lg:px-48">
         <div className="flex justify-between items-center p-4">
           <h1 className="ml-4">AgencyMarketing</h1>
           <ul className={`hidden lg:flex gap-8 `}>

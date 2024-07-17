@@ -52,7 +52,7 @@ const Services = () => {
         Digital. Niezależnie od tego, czy szukasz projektowania, czy tworzenia w
         Webflow, czy obu tych usług, mamy to, czego potrzebujesz.
       </p>
-      <div className="flex flex-col md:flex-row gap-8 py-16">
+      <div className="flex flex-col md:flex-row md:justify-center gap-8 py-16 flex-wrap flex-1">
         <SingleService
           src="/images/example_service.png"
           title="Testing it up"
