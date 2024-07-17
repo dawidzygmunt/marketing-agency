@@ -4,6 +4,7 @@ import Projects from "./components/projects"
 import Statistics from "./components/statistics"
 import Services from "./components/services"
 import { useEffect } from "react"
+import Reviews from "./components/reviews"
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <Projects />
       <Statistics />
       <Services />
+      <Reviews />
     </>
   )
 }
