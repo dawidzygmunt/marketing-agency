@@ -9,10 +9,12 @@ import { buttonVariants } from "@/components/ui/button"
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>
 
+const currentDay = new Date().getDay()
+
 function Calendar({
   className,
   classNames,
-  showOutsideDays = true,
+  showOutsideDays = false,
   ...props
 }: CalendarProps) {
   return (
@@ -39,16 +41,16 @@ function Calendar({
         cell: "h-14 w-14 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
         day: cn(
           buttonVariants({ variant: "ghost" }),
-          "h-12 w-12 p-0 font-normal aria-selected:opacity-100 hover:border"
+          "h-12 w-12 p-0 font-normal aria-selected:opacity-100 hover:border hover:border-black bg-gray-200"
         ),
-        day_range_end: "day-range-end",
+        day_range_end: "day-range-end ",
         day_selected:
-          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground bg-black text-white",
-        day_today: "bg-accent text-accent-foreground",
+          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground bg-black",
+        day_today: "bg-accent text-accent-foreground ",
         day_outside:
-          "day-outside text-muted-foreground opacity-50 aria-selected:bg-accent/50 aria-selected:text-muted-foreground aria-selected:opacity-30",
+          "day-outside text-muted-foreground opacity-50 aria-selected:bg-accent/50 aria-selected:text-muted-foreground aria-selected:opacity-30 ",
         day_disabled:
-          "text-muted-foreground opacity-50 hover:cursor-not-allowed hover:border-none",
+          "text-muted-foreground bg-white opacity-50 hover:cursor-not-allowed bg-[#ffffff]",
         day_range_middle:
           "aria-selected:bg-accent aria-selected:text-accent-foreground",
         day_hidden: "invisible",

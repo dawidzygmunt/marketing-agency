@@ -5,17 +5,10 @@ import { Button } from "./ui/button"
 import { Menu } from "lucide-react"
 import path from "path"
 import Link from "next/link"
+import { navLinks } from "./nav-links"
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false)
-
-  const navLinks = [
-    { title: "Home", path: "/" },
-    { title: "About", path: "/about" },
-    { title: "Services", path: "/services" },
-    { title: "Blog", path: "/blog" },
-    { title: "Contact", path: "/contact" },
-  ]
 
   return (
     <>

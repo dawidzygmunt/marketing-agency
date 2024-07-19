@@ -5,6 +5,9 @@ import Statistics from "./components/statistics"
 import Services from "./components/services"
 import { useEffect } from "react"
 import Reviews from "./components/reviews"
+import Faq from "./components/faq"
+import LatestArticles from "./components/latest-articles"
+import Footer from "./components/footer"
 
 export default function Home() {
   return (
@@ -31,6 +34,9 @@ export default function Home() {
       <Statistics />
       <Services />
       <Reviews />
+      <Faq />
+      <LatestArticles />
+      <Footer />
     </>
   )
 }
