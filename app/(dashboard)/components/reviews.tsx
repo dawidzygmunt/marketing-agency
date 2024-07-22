@@ -39,7 +39,7 @@ const Reviews = () => {
     },
   ]
   return (
-    <div className="bg-white text-black">
+    <div className="bg-white text-black sm:px-20 md:px-36 2xl:px-60 my-10">
       <div className="flex flex-col items-center py-24 text-center">
         <span className="tracking-widest font-bold">Nasze współprace</span>
         <h2 className="font-bold text-5xl my-5 mx-5">Zaufanie to podstawa</h2>
@@ -50,7 +50,7 @@ const Reviews = () => {
         </p>
       </div>
       <div className="flex justify-center">Logo 1</div>
-      <div className="bg-black sm:m-4 md:m-12 2xl:m-48 p-6 rounded-lg flex justify-center">
+      <div className="bg-black p-6 rounded-lg flex justify-center">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
@@ -58,7 +58,7 @@ const Reviews = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center py-2 text-center">
+      <div className="flex flex-col items-center py-2 text-center my-26 mt-36">
         <h2 className="font-bold text-5xl mb-7 mx-5">Darmowa konstultacja</h2>
         <p className="font-semibold text-md mx-3 max-w-[700px]">
           Mieliśmy wielkie szczęście, że nasi członkowie zespołu współpracowali

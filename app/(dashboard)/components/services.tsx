@@ -43,7 +43,7 @@ const Services = () => {
     })
   }, [])
   return (
-    <div className="bg-[#0c0c0c] px p-6 md:px-24 xl:px-48 relative py-20">
+    <div className="bg-[#0c0c0c] px p-6 msm:px-20 md:px-36 2xl:px-60 relative py-20">
       <Image
         src={stample}
         alt="stample"

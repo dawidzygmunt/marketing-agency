@@ -4,7 +4,7 @@ import SingleProject from "./single-project"
 
 const Projects = () => {
   return (
-    <div className="bg-white text-purpleText flex flex-col font-semibold items-center text-center px-12 lg:px-48 text-lg">
+    <div className="bg-white text-purpleText flex flex-col font-semibold items-center text-center sm:px-20 md:px-36 2xl:px-60 text-lg">
       <h2 className="text-black text-6xl font-semibold m-6 mt-24">
         Nasze projekty
       </h2>

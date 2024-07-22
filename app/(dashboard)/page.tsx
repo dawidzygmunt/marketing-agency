@@ -12,14 +12,16 @@ import Footer from "./components/footer"
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col sm:items-center lg:p-48 pt-16 bg-black">
+      <main className="flex min-h-screen flex-col sm:items-center px-10 sm:px-20 md:px-36 2xl:px-60 lg:py-32  pt-16 bg-black">
         <div className="p-5 w-full">
           <p className="uppercase text font-bold tracking-widest text-sm">
             webflow experts
           </p>
-          <h1 className="text-6xl font-bold mr-36 my-10">Śląska Agencja PL</h1>
-          <p>
-            Jesteśmy wiodącą agencją Webflow z siedzibą w Mikołowie,
+          <h1 className="text-6xl xl:text-8xl font-bold mr-36 my-10">
+            Najlepsza Agencja PL
+          </h1>
+          <p className="xl:text-2xl xl:w-[50%]">
+            Jesteśmy wiodącą agencją Webflow z siedzibą w Katowicach,
             certyfikowaną przez Webflow jako profesjonalny partner.{" "}
           </p>
 

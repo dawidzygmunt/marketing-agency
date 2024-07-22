@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 const LatestArticles = () => {
   return (
-    <div className="flex flex-col items-center bg-white text-black p-10 py-24">
+    <div className="flex flex-col items-center bg-white text-black p-10 py-24 sm:px-20 md:px-36 2xl:px-60 ">
       <span className="text-sm font-bold tracking-widest uppercase">blog</span>
       <h3 className="text-5xl my-5 font-semibold">Ostatnie artykuly</h3>
       <p className="text-lg max-w-[70%] m-4">
@@ -16,7 +16,7 @@ const LatestArticles = () => {
         <SingleBlogPost />
       </div>
 
-      <div className="flex flex-col items-center bg-purple text-white w-full p-10 rounded-lg my-28">
+      <div className="flex flex-col items-center bg-purple text-white w-full p-10 rounded-lg my-28 text-center">
         <span className="uppercase tracking-widest font-semibold text-sm my-6">
           contact us
         </span>
