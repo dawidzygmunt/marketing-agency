@@ -15,13 +15,13 @@ const SingleService: React.FC<SingleServiceProps> = ({
 }) => {
   return (
     <div className="glow-capture">
-      <div className="group border-2 border-white/5 glow:border-glow bg-[#191919] p-10 rounded-md backdrop-blur-md">
+      <div className="group border-2 border-white/5 glow:border-glow bg-[#191919] p-10 rounded-md backdrop-blur-md flex flex-col">
         <Image
           src={src}
-          width={600}
-          height={600}
+          width={900}
+          height={900}
           alt="service-image"
-          className="rounded-md"
+          className="rounded-md object-fill bg-cover w-full"
         />
         <div className="mt-8">
           <h3 className="text-4xl font-bold text-white my-4">{title}</h3>

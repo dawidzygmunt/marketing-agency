@@ -4,7 +4,10 @@ import React from "react"
 
 const SingleBlogPost = () => {
   return (
-    <div className="bg-white text-black flex flex-col items-center border hover:-translate-y-2 transition-all duration-200 rounded-lg hover:cursor-pointer">
+    <div
+      className="bg-white text-black flex flex-col items-center border hover:-translate-y-2 transition-all duration-200 rounded-lg 
+        hover:cursor-pointer max-w-[700px]"
+    >
       <Image
         src="/images/example_service.png"
         width={800}
@@ -20,7 +23,7 @@ const SingleBlogPost = () => {
           How to referance fields on webflows
         </h3>
         <span className="text-sm">May 3, 2024</span>
-        <p className="text-black font-semibold text-lg mr-14">
+        <p className="text-black font-semibold text-lg mr-14 line-clamp-4 xl:line-clamp-none">
           Reference fields are an essential tool when working with the Webflow
           CMS (Content Management System). They enable you to create
           relationships between different content items, making it easy to reuse

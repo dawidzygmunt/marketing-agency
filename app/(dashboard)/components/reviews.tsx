@@ -50,7 +50,7 @@ const Reviews = () => {
         </p>
       </div>
       <div className="flex justify-center">Logo 1</div>
-      <div className="bg-black sm:m-4 md:m-12 2xl:m-52 p-6 rounded-lg flex justify-center">
+      <div className="bg-black sm:m-4 md:m-12 2xl:m-48 p-6 rounded-lg flex justify-center">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
@@ -58,8 +58,8 @@ const Reviews = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center py-24 text-center">
-        <h2 className="font-bold text-5xl my-5 mx-5">Darmowa konstultacja</h2>
+      <div className="flex flex-col items-center py-2 text-center">
+        <h2 className="font-bold text-5xl mb-7 mx-5">Darmowa konstultacja</h2>
         <p className="font-semibold text-md mx-3 max-w-[700px]">
           Mieliśmy wielkie szczęście, że nasi członkowie zespołu współpracowali
           z globalnymi markami w różnych branżach.

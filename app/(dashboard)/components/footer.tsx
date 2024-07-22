@@ -4,8 +4,8 @@ import Newsletter from "./newsleter"
 
 const Footer = () => {
   return (
-    <div className="bg-black p-10 py-16 flex flex-col">
-      <div className="flex gap-32 ">
+    <div className="bg-black p-10 py-16 flex flex-col lg:flex-row gap-20">
+      <div className="flex gap-32">
         <div>
           <h3 className="text-2xl">Nawigacja</h3>
           <ul className="flex flex-col items-start py-2 text-[#878787]">

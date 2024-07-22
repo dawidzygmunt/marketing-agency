@@ -43,16 +43,22 @@ const Services = () => {
     })
   }, [])
   return (
-    <div className="bg-[#0c0c0c] px p-6">
-      <Image src={stample} alt="stample" className="invert my-6" />
-      <p className="uppercase font-bold tracking-wide my-6">webfow experts</p>
+    <div className="bg-[#0c0c0c] px p-6 md:px-24 xl:px-48 relative py-20">
+      <Image
+        src={stample}
+        alt="stample"
+        className="invert my-6 lg:absolute right-0 top-0 xl:right-44 2xl:top-10"
+      />
+      <p className="uppercase font-bold tracking-widest my-6 text-xs">
+        webfow experts
+      </p>
       <h2 className="text-6xl font-semibold">Nasze usługi</h2>
-      <p className="text-f6f6f6 text-xl font-semibold my-5 leading-relaxed">
+      <p className="text-f6f6f6 text-xl font-semibold my-5 leading-relaxed lg:mr-48 xl:mr-[400px] 2xl:mr-[700px]">
         Oferujemy szeroki zakres usług związanych z Webflow w Lighthouse
         Digital. Niezależnie od tego, czy szukasz projektowania, czy tworzenia w
         Webflow, czy obu tych usług, mamy to, czego potrzebujesz.
       </p>
-      <div className="flex flex-col md:flex-row md:justify-center gap-8 py-16 flex-wrap flex-1">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-24">
         <SingleService
           src="/images/example_service.png"
           title="Testing it up"

@@ -16,7 +16,7 @@ const Faq = () => {
       <h2 className="text-5xl font-semibold max-w-[70%] text-center leading-snug">
         Masz pytania, My mamy odpowiedzi
       </h2>
-      <div className="w-full flex flex-col gap-1">
+      <div className="w-full flex flex-col gap-1 py-10 lg:px-20 xl:px-48">
         <SingleFaq
           title="Czy mogę zobaczyć portfolio?"
           content="Tak, nasze portfolio znajdziesz na naszej stronie głównej."

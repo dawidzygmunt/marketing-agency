@@ -21,7 +21,7 @@ const CalendarMeetings = () => {
   }, [timeFormat])
 
   return (
-    <div className="flex mb-20 m-10 justify-center">
+    <div className="flex mb-20 m-24 justify-center">
       <div className="border p-4 flex flex-col text-black">
         <Avatar className="w-[30px] h-[30px]">
           <AvatarImage src="https://github.com/shadcn.png" />

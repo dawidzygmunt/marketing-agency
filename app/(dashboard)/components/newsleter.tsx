@@ -34,8 +34,10 @@ const Newsletter = () => {
 
   function onSubmit(data: z.infer<typeof FormSchema>) {}
   return (
-    <div className="my-7">
-      <h3 className="text-2xl my-4 font-semibold">Zapisz się do newslettera</h3>
+    <div className="my-7 lg:my-0">
+      <h3 className="text-2xl my-4 lg:my-0 font-semibold">
+        Zapisz się do newslettera
+      </h3>
       <p className="text-[#878787] my-7">
         Nie wysyłamy często wiadomości, nie będziemy cię denerwować{" "}
       </p>
@@ -56,7 +58,10 @@ const Newsletter = () => {
               </FormItem>
             )}
           />
-          <Button className="bg-purple text-white mt-5 px-9 py-6" type="submit">
+          <Button
+            className="bg-purple text-white mt-5 px-9 py-6 font-bold"
+            type="submit"
+          >
             Potwierdź
           </Button>
         </form>

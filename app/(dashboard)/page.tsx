@@ -12,9 +12,9 @@ import Footer from "./components/footer"
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col sm:items-center lg:p-24 pt-16 bg-slate-800">
-        <div className="p-5">
-          <p className="uppercase text font-bold tracking-wide">
+      <main className="flex min-h-screen flex-col sm:items-center lg:p-48 pt-16 bg-black">
+        <div className="p-5 w-full">
+          <p className="uppercase text font-bold tracking-widest text-sm">
             webflow experts
           </p>
           <h1 className="text-6xl font-bold mr-36 my-10">Śląska Agencja PL</h1>

@@ -18,15 +18,20 @@ const SingleProject: React.FC<SingleProjectProps> = ({
 }) => {
   return (
     <Link href={href}>
-      <div className="text-black my-20">
-        <Image
-          src={src}
-          width={700}
-          height={700}
-          alt="project"
-          className="rounded-md"
-        />
-        <Separator className="my-7 bg-black" />
+      <div className="text-black group">
+        <div className="overflow-hidden">
+          <Image
+            src={src}
+            width={700}
+            height={700}
+            alt="project"
+            className="rounded-md group-hover:scale-105 transition-all ease-in-out duration-700"
+          />
+        </div>
+
+        <Separator className="relative my-6 bg-gray-200 overflow-hidden">
+          <div className="absolute top-0 left-0 h-full w-full bg-gray-700 scale-x-0 origin-left transition-transform duration-700 ease-in-out group-hover:scale-x-100"></div>
+        </Separator>
         <div className="flex flex-col items-start">
           <h3 className="text-4xl">{title}</h3>
           <p className="mr-10 my-1 text-[#363636]">{description}</p>
