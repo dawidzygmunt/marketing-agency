@@ -13,7 +13,7 @@ const Faq = () => {
       <span className="font-bold tracking-widest uppercase text-xs my-10">
         Faq
       </span>
-      <h2 className="text-5xl font-semibold max-w-[70%] text-center leading-snug">
+      <h2 className="text-5xl xl:text-6xl font-semibold max-w-[70%] text-center leading-snug">
         Masz pytania, My mamy odpowiedzi
       </h2>
       <div className="w-full flex flex-col gap-1 py-10 lg:px-20 xl:px-48">

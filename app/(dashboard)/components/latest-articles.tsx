@@ -6,7 +6,9 @@ const LatestArticles = () => {
   return (
     <div className="flex flex-col items-center bg-white text-black p-10 py-24 sm:px-20 md:px-36 2xl:px-60 ">
       <span className="text-sm font-bold tracking-widest uppercase">blog</span>
-      <h3 className="text-5xl my-5 font-semibold">Ostatnie artykuly</h3>
+      <h3 className="text-5xl xl:text-6xl my-5 font-semibold">
+        Ostatnie artykuly
+      </h3>
       <p className="text-lg max-w-[70%] m-4">
         Bądź na bieżąco z najnowszymi wiadomościami i wydarzeniami Webflow.
       </p>

@@ -69,19 +69,8 @@ const CalendarMeetings = () => {
             </span>
           </div>
 
-          <div className="flex text-xs border rounded-md p-1">
-            <Button
-              className={`py-7 ${timeFormat === "12" ? "bg-slate-200" : ""}`}
-              onClick={() => setTimeFormat("12")}
-            >
-              12 <br /> godz.
-            </Button>
-            <Button
-              className={`py-7 ${timeFormat === "24" ? "bg-slate-200" : ""}`}
-              onClick={() => setTimeFormat("24")}
-            >
-              24 <br /> godz.
-            </Button>
+          <div className="flex text-sm font-bold border rounded-md p-2">
+            Wybierz godzinę
           </div>
         </div>
         <div className="flex flex-col mt-5">

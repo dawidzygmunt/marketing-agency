@@ -52,7 +52,7 @@ const Services = () => {
       <p className="uppercase font-bold tracking-widest my-6 text-xs">
         webfow experts
       </p>
-      <h2 className="text-6xl font-semibold">Nasze usługi</h2>
+      <h2 className="text-6xl font-semibold xl:text-7xl">Nasze usługi</h2>
       <p className="text-f6f6f6 text-xl font-semibold my-5 leading-relaxed lg:mr-48 xl:mr-[400px] 2xl:mr-[700px]">
         Oferujemy szeroki zakres usług związanych z Webflow w Lighthouse
         Digital. Niezależnie od tego, czy szukasz projektowania, czy tworzenia w

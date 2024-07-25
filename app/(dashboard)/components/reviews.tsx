@@ -42,7 +42,9 @@ const Reviews = () => {
     <div className="bg-white text-black sm:px-20 md:px-36 2xl:px-60 my-10">
       <div className="flex flex-col items-center py-24 text-center">
         <span className="tracking-widest font-bold">Nasze współprace</span>
-        <h2 className="font-bold text-5xl my-5 mx-5">Zaufanie to podstawa</h2>
+        <h2 className="font-bold text-5xl xl:text-6xl my-5 mx-5">
+          Zaufanie to podstawa
+        </h2>
         <p className="font-semibold text-md mx-3 max-w-[700px]">
           Zaufało nam już ponad 50 klientów. To dla nas ogromny zaszczyt i dowód
           na to, że nasze usługi spełniają najwyższe standardy jakości.
@@ -59,7 +61,9 @@ const Reviews = () => {
       </div>
 
       <div className="flex flex-col items-center py-2 text-center my-26 mt-36">
-        <h2 className="font-bold text-5xl mb-7 mx-5">Darmowa konstultacja</h2>
+        <h2 className="font-bold text-5xl xl:text-6xl mb-7 mx-5">
+          Darmowa konstultacja
+        </h2>
         <p className="font-semibold text-md mx-3 max-w-[700px]">
           Mieliśmy wielkie szczęście, że nasi członkowie zespołu współpracowali
           z globalnymi markami w różnych branżach.
