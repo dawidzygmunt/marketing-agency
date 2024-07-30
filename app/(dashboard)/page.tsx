@@ -12,7 +12,7 @@ import Footer from "./components/footer"
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col sm:items-center px-10 sm:px-20 md:px-36 2xl:px-60 lg:py-32  pt-16 bg-black">
+      {/* <main className="flex min-h-screen flex-col sm:items-center px-10 sm:px-20 md:px-36 2xl:px-60 lg:py-32  pt-16 bg-black">
         <div className="p-5 w-full">
           <p className="uppercase text font-bold tracking-widest text-sm">
             webflow experts
@@ -30,15 +30,15 @@ export default function Home() {
           </Button>
           <VideoPlayer />
         </div>
-      </main>
+      </main> */}
       <div className="h-[100px] w-full bg-purple"></div>
-      <Projects />
-      <Statistics />
+      {/* <Projects /> */}
+      {/* <Statistics /> */}
       <Services />
-      <Reviews />
-      <Faq />
-      <LatestArticles />
-      <Footer />
+      {/* <Reviews /> */}
+      {/* <Faq /> */}
+      {/* <LatestArticles /> */}
+      {/* <Footer /> */}
     </>
   )
 }

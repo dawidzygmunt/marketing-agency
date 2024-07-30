@@ -20,6 +20,7 @@ const Services = () => {
       const clonedChild = capture.children[0].cloneNode(true) as HTMLElement
       const overlay = capture.querySelector(".glow-overlay") as HTMLElement
       if (!overlay) {
+        console.log("No overlay found")
         return
       }
 
@@ -33,7 +34,7 @@ const Services = () => {
 
         overlay.style.setProperty("--glow-x", `${x}px`)
         overlay.style.setProperty("--glow-y", `${y}px`)
-        overlay.style.setProperty("--glow-opacity", "0.4")
+        overlay.style.setProperty("--glow-opacity", "1")
       })
 
       // Add mouseleave event to remove the glow effect
@@ -43,7 +44,7 @@ const Services = () => {
     })
   }, [])
   return (
-    <div className="bg-[#0c0c0c] px p-6 msm:px-20 md:px-36 2xl:px-60 relative py-20">
+    <div className="bg-[#0c0c0c] px p-6 sm:px-20 md:px-36 2xl:px-60 relative py-20">
       <Image
         src={stample}
         alt="stample"
@@ -58,7 +59,7 @@ const Services = () => {
         Digital. Niezależnie od tego, czy szukasz projektowania, czy tworzenia w
         Webflow, czy obu tych usług, mamy to, czego potrzebujesz.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-24">
+      <div className="">
         <SingleService
           src="/images/example_service.png"
           title="Testing it up"

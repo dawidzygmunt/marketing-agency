@@ -1,9 +1,6 @@
 import type { Config } from "tailwindcss"
 const { fontFamily } = require("tailwindcss/defaultTheme")
 const plugin = require("tailwindcss/plugin")
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette")
 
 const config = {
   darkMode: ["class"],
@@ -86,25 +83,17 @@ const config = {
           "0%": { transform: "translateY(0%)" },
           "100%": { transform: "translateY(100%)" },
         },
-        scroll: {
-          to: {
-            transform: "translate(calc(-50% - 0.5rem))",
-          },
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         slideDown: "slideDown 0.2s ease-out forwards",
         slideUp: "slideDown 0.2s ease-out forwards",
-        scroll:
-          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
     },
   },
   plugins: [
     require("tailwindcss-animate"),
-    addVariablesForColors,
     plugin(
       function ({ addVariant }: { addVariant: Function }) {
         addVariant("glow", ".glow-capture .glow-overlay &")
@@ -113,7 +102,7 @@ const config = {
         theme: {
           extend: {
             colors: {
-              glow: "color-mix(in srgb, var(--glow-color) calc(<alpha-values> * 100%), transparent)",
+              glow: "color-mix(in srgb, var(--glow-color) calc(<alpha-values> * 70%), transparent)",
             },
           },
         },
@@ -121,16 +110,5 @@ const config = {
     ),
   ],
 } satisfies Config
-
-function addVariablesForColors({ addBase, theme }: any) {
-  let allColors = flattenColorPalette(theme("colors"))
-  let newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
-  )
-
-  addBase({
-    ":root": newVars,
-  })
-}
 
 export default config
