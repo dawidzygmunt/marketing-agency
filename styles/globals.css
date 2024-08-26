@@ -74,7 +74,7 @@
 }
 
 .glow-overlay {
-  --glow-size: 50rem;
+  --glow-size:40rem;
   position: absolute;
   inset: 0;
   pointer-events: none;
