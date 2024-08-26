@@ -74,8 +74,7 @@
 }
 
 .glow-overlay {
-  --glow-size: 25rem;
-
+  --glow-size: 50rem;
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -83,9 +82,9 @@
   opacity: var(--glow-opacity, 0);
   mask: radial-gradient(
     var(--glow-size) var(--glow-size) at var(--glow-x) var(--glow-y),
-    var(--glow-color) 1%,
+    var(--glow-color) 5%,
     transparent 50%
   );
-  transition: 400ms mask ease;
+  transition: 600ms mask ease;
   will-change: mask;
 }

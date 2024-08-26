@@ -35,6 +35,7 @@ const Services = () => {
         overlay.style.setProperty("--glow-x", `${x}px`)
         overlay.style.setProperty("--glow-y", `${y}px`)
         overlay.style.setProperty("--glow-opacity", "1")
+        // overlay.style.setProperty("--glow-size", "700px")
       })
 
       // Add mouseleave event to remove the glow effect
@@ -44,7 +45,7 @@ const Services = () => {
     })
   }, [])
   return (
-    <div className="bg-[#0c0c0c] px p-6 sm:px-20 md:px-36 2xl:px-60 relative py-20">
+    <div className="bg-[#0c0c0c] px p-6 sm:px-20 md:px-36 2xl:px-60 py-20">
       <Image
         src={stample}
         alt="stample"
@@ -54,12 +55,12 @@ const Services = () => {
         webfow experts
       </p>
       <h2 className="text-6xl font-semibold xl:text-7xl">Nasze usługi</h2>
-      <p className="text-f6f6f6 text-xl font-semibold my-5 leading-relaxed lg:mr-48 xl:mr-[400px] 2xl:mr-[700px]">
+      <p className="text-f6f6f6 text-xl font-semibold my-5 leading-relaxed lg:mr-48 xl:mr-[400px] 2xl:mr-[700px] py-5">
         Oferujemy szeroki zakres usług związanych z Webflow w Lighthouse
         Digital. Niezależnie od tego, czy szukasz projektowania, czy tworzenia w
         Webflow, czy obu tych usług, mamy to, czego potrzebujesz.
       </p>
-      <div className="">
+      <div className="grid grid-cols-2 gap-8 ">
         <SingleService
           src="/images/example_service.png"
           title="Testing it up"

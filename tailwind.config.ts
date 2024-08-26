@@ -102,7 +102,7 @@ const config = {
         theme: {
           extend: {
             colors: {
-              glow: "color-mix(in srgb, var(--glow-color) calc(<alpha-values> * 70%), transparent)",
+              glow: "color-mix(in srgb, var(--glow-color) calc(<alpha-values> * 100%), transparent)",
             },
           },
         },
