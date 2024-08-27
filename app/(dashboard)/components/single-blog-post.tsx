@@ -9,7 +9,7 @@ const SingleBlogPost = () => {
         hover:cursor-pointer max-w-[700px]"
     >
       <Image
-        src="/images/service1.png"
+        src="/agency/images/example-service.png"
         width={800}
         height={800}
         alt="blog image"

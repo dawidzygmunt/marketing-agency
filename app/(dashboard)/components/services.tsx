@@ -62,22 +62,22 @@ const Services = () => {
       </p>
       <div className="grid grid-cols-2 gap-8 ">
         <SingleService
-          src="/images/service1.png"
+          src="/agency/images/example-service.png"
           title="Testing it up"
           description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
         />
         <SingleService
-          src="/images/service1.png"
+          src="/agency/images/example-service.png"
           title="Testing up it"
           description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
         />
         <SingleService
-          src="/images/service1.png"
+          src="/agency/images/example-service.png"
           title="Testing up it"
           description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
         />
         <SingleService
-          src="/images/service1.png"
+          src="/agency/images/example-service.png"
           title="Testing up it"
           description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
         />
