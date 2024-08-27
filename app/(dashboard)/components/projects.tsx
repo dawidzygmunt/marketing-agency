@@ -18,25 +18,25 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 my-20">
         <SingleProject
-          src="/images/project1.png"
+          src="/agency/images/project1.png"
           title="Mission Zero"
           description="A Webflow development for the largest gaming industry copmany"
           href="/"
         />
         <SingleProject
-          src="/images/project1.png"
+          src="/agency/images/project1.png"
           title="Mission Zero"
           description="A Webflow development for the largest gaming industry copmany"
           href="/"
         />
         <SingleProject
-          src="/images/project1.png"
+          src="/agency/images/project1.png"
           title="Mission Zero"
           description="A Webflow development for the largest gaming industry copmany"
           href="/"
         />
         <SingleProject
-          src="/images/project1.png"
+          src="/agency/images/project1.png"
           title="Mission Zero"
           description="A Webflow development for the largest gaming industry copmany"
           href="/"
