@@ -9,8 +9,9 @@ const Projects = () => {
         Nasze projekty
       </h2>
       <p className="font-bold text-smallText xl:mx-96">
-        Spójrz na niektóre z naszych ostatnich projektów w Webflow. Obsługujemy
-        wszystkie branże, ponieważ naszą specjalizacją jest platforma Webflow.
+        Spójrz na niektóre z naszych ostatnich projektów w AgencyMarketing.
+        Obsługujemy wszystkie branże, ponieważ naszą specjalizacją jest
+        platforma Webflow.
       </p>
       <Button className="bg-purple text-md font-bold px-8 py-7 m-10">
         Zobacz wszystkie projekty
@@ -19,26 +20,26 @@ const Projects = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 my-20">
         <SingleProject
           src="/agency/images/project1.png"
-          title="Mission Zero"
-          description="A Webflow development for the largest gaming industry copmany"
+          title="Example Project"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar nec odio a bibendum. Vestibulum ac magna risus. Pellentesque fermentum vitae ante in blandit. Nam odio nibh, maximus aliquet diam ut, placerat rutrum tortor."
           href="/"
         />
         <SingleProject
           src="/agency/images/project1.png"
-          title="Mission Zero"
-          description="A Webflow development for the largest gaming industry copmany"
+          title="Example Project"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar nec odio a bibendum. Vestibulum ac magna risus. Pellentesque fermentum vitae ante in blandit. Nam odio nibh, maximus aliquet diam ut, placerat rutrum tortor."
           href="/"
         />
         <SingleProject
           src="/agency/images/project1.png"
-          title="Mission Zero"
-          description="A Webflow development for the largest gaming industry copmany"
+          title="Example Project"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar nec odio a bibendum. Vestibulum ac magna risus. Pellentesque fermentum vitae ante in blandit. Nam odio nibh, maximus aliquet diam ut, placerat rutrum tortor."
           href="/"
         />
         <SingleProject
           src="/agency/images/project1.png"
-          title="Mission Zero"
-          description="A Webflow development for the largest gaming industry copmany"
+          title="Example Project"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar nec odio a bibendum. Vestibulum ac magna risus. Pellentesque fermentum vitae ante in blandit. Nam odio nibh, maximus aliquet diam ut, placerat rutrum tortor."
           href="/"
         />
       </div>

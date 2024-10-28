@@ -19,18 +19,17 @@ const SingleBlogPost = () => {
         <div className="border border-purple text-purple px-4 py-1 rounded-sm my-4 font-semibold">
           Kategoria
         </div>
-        <h3 className="text-2xl font-semibold">
-          How to referance fields on webflows
-        </h3>
+        <h3 className="text-2xl font-semibold">Example Title</h3>
         <span className="text-sm">May 3, 2024</span>
         <p className="text-black font-semibold text-lg mr-14 line-clamp-4 xl:line-clamp-none">
-          Reference fields are an essential tool when working with the Webflow
-          CMS (Content Management System). They enable you to create
-          relationships between different content items, making it easy to reuse
-          and manage your data in a structured way.
+          Curabitur finibus fermentum nulla sed porttitor. Mauris facilisis
+          justo non egestas cursus. Donec pretium lectus sit amet venenatis
+          sollicitudin. Suspendisse non finibus nunc. Phasellus vel laoreet
+          metus. Pellentesque tincidunt tellus id erat aliquam, at sollicitudin
+          erat eleifend.
         </p>
         <Button className="text-purple text-lg font-semibold mt-4 px-0">
-          Read more
+          Czytaj więcej
         </Button>
       </div>
     </div>

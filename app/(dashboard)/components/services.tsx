@@ -52,34 +52,36 @@ const Services = () => {
         className="invert my-6 lg:absolute right-0 top-0 xl:right-44 2xl:top-10"
       />
       <p className="uppercase font-bold tracking-widest my-6 text-xs">
-        webfow experts
+        Example Agency
       </p>
       <h2 className="text-6xl font-semibold xl:text-7xl">Nasze usługi</h2>
       <p className="text-f6f6f6 text-xl font-semibold my-5 leading-relaxed lg:mr-48 xl:mr-[400px] 2xl:mr-[700px] py-5">
-        Oferujemy szeroki zakres usług związanych z Webflow w Lighthouse
-        Digital. Niezależnie od tego, czy szukasz projektowania, czy tworzenia w
-        Webflow, czy obu tych usług, mamy to, czego potrzebujesz.
+        Maecenas vel erat sed ante rhoncus placerat. Donec tincidunt, urna ac
+        ultricies bibendum, odio nibh sagittis est, vitae fringilla magna odio
+        non dolor. Aliquam in ornare ipsum. Proin vitae quam eleifend, aliquam
+        leo a, euismod lorem. Nullam massa velit, congue quis nisl sed, tempor
+        pellentesque purus.
       </p>
       <div className="grid grid-cols-2 gap-8 ">
         <SingleService
           src="/agency/images/example-service.png"
-          title="Testing it up"
-          description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
+          title="Example Service"
+          description="Nulla vestibulum dui in mi tincidunt, eu iaculis ex bibendum. Curabitur orci mi, pharetra eget mauris eu, dictum condimentum risus."
         />
         <SingleService
           src="/agency/images/example-service.png"
-          title="Testing up it"
-          description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
+          title="Example Service"
+          description="Nulla vestibulum dui in mi tincidunt, eu iaculis ex bibendum. Curabitur orci mi, pharetra eget mauris eu, dictum condimentum risus."
         />
         <SingleService
           src="/agency/images/example-service.png"
-          title="Testing up it"
-          description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
+          title="Example Service"
+          description="Nulla vestibulum dui in mi tincidunt, eu iaculis ex bibendum. Curabitur orci mi, pharetra eget mauris eu, dictum condimentum risus."
         />
         <SingleService
           src="/agency/images/example-service.png"
-          title="Testing up it"
-          description="Ther is no desciprtion to be honset i mentioned it twiced its more loike lorem ipsum"
+          title="Example Service"
+          description="Nulla vestibulum dui in mi tincidunt, eu iaculis ex bibendum. Curabitur orci mi, pharetra eget mauris eu, dictum condimentum risus."
         />
       </div>
     </div>

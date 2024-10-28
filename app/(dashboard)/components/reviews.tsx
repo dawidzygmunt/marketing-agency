@@ -51,7 +51,6 @@ const Reviews = () => {
           Przekonaj się sam, dlaczego nasi klienci wybierają właśnie nas.
         </p>
       </div>
-      <div className="flex justify-center">Logo 1</div>
       <div className="bg-black p-6 rounded-lg flex justify-center">
         <InfiniteMovingCards
           items={testimonials}

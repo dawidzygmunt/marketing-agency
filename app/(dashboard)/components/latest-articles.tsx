@@ -10,7 +10,7 @@ const LatestArticles = () => {
         Ostatnie artykuly
       </h3>
       <p className="text-lg max-w-[70%] m-4">
-        Bądź na bieżąco z najnowszymi wiadomościami i wydarzeniami Webflow.
+        Bądź na bieżąco z najnowszymi wiadomościami i wydarzeniami agencji.
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 xl:gap-8 my-16">
         <SingleBlogPost />

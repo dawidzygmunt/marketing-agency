@@ -34,7 +34,7 @@ const SingleProject: React.FC<SingleProjectProps> = ({
         </Separator>
         <div className="flex flex-col items-start">
           <h3 className="text-4xl">{title}</h3>
-          <p className="mr-10 my-1 text-[#363636]">{description}</p>
+          <p className="mr-10 my-1 text-[#363636] text-left">{description}</p>
         </div>
       </div>
     </Link>
